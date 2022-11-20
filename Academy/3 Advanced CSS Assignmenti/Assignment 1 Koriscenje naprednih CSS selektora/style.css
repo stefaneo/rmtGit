@@ -1,0 +1,26 @@
+a[href*="google"] {
+  color: green;
+}
+
+a[href*="link-group"] {
+  color: red;
+}
+
+div > div > p:nth-child(2n + 1) {
+  color: red;
+}
+
+div > div > p:nth-child(2n + 2) {
+  color: blue;
+}
+
+div#first-div > p::after {
+  content: "- NEW";
+  font-style: italic;
+  color: yellow;
+  text-shadow: 1px 1px 1px black;
+}
+
+body > p:nth-last-of-type(1):hover {
+  font-style: italic;
+}
