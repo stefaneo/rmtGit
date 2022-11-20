@@ -1,0 +1,59 @@
+#background {
+  width: 750px;
+  height: 650px;
+  background-color: #050210;
+  position: relative;
+}
+
+#shadow {
+  width: 380px;
+  height: 380px;
+  background: linear-gradient(#fb5dad, #55fb9f, #b97aff);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -190px 0px 0px -190px;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  filter: blur(50px);
+}
+
+#gradient {
+  width: 350px;
+  height: 350px;
+  background: linear-gradient(#fb5dad, #55fb9f, #b97aff);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -175px 0px 0px -175px;
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  filter: blur(1px);
+}
+
+#cover {
+  width: 300px;
+  height: 300px;
+  background-color: #050210;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0px 0px -150px;
+  filter: blur(1px);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
