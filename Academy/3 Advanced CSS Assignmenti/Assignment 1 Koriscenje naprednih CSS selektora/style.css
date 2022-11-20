@@ -18,7 +18,7 @@ div#first-div > p::after {
   content: "- NEW";
   font-style: italic;
   color: yellow;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px black; /* dodao senku jer se zuta boja slabo vidi na beloj pozadini */
 }
 
 body > p:nth-last-of-type(1):hover {
