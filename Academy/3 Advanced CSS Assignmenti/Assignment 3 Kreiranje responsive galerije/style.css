@@ -3,12 +3,7 @@
   font-family: sans-serif;
 }
 
-body {
-  border: 1px dashed blue;
-}
-
 #container {
-  border: 2px dotted green;
   background-color: rgb(241, 241, 241);
 
   max-width: 1024px;
@@ -17,7 +12,6 @@ body {
 }
 
 h2 {
-  border: 1px dashed blue;
   color: rgb(78, 78, 78);
   font-weight: lighter;
 
@@ -25,8 +19,6 @@ h2 {
 }
 
 #grid-container {
-  border: 1px dashed blue;
-
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   column-gap: 2em;
@@ -35,29 +27,24 @@ h2 {
 }
 
 .picture {
-  border: 1px dashed green;
   background: linear-gradient(lightblue 80%, white 20%);
   border-radius: 10%;
   margin: 5%;
 }
 
 img {
-  border: 1px solid red;
   display: block;
   width: 100%;
   height: auto;
 }
 
 .title {
-  border: 1px dashed orange;
-
   text-align: center;
   padding-bottom: 3%;
   font-size: 14px;
 }
 
 p {
-  border: 1px dashed blue;
   margin: 1% 1.1%;
 }
 
