@@ -31,22 +31,3 @@ function checkResult() {
 }
 
 checkResult();
-
-/* var a = prompt("Unesite prvi broj");
-var b = prompt("Unesite operaciju");
-var c = prompt("Unesite drugi broj");
-
-var a1 = parseInt(a);
-var c1 = parseInt(c);
-
-if (b == "+") {
-  alert("Rezultat je: " + (c1 + a1));
-} else if (b == "-") {
-  alert("Rezultat je: " + (a1 - c1));
-} else if (b == "*") {
-  alert("Rezultat je: " + a1 * c1);
-} else if (b == "/") {
-  alert("Rezultat je: " + a1 / c1);
-} else {
-  alert("Unesite jednu od operacija: + - * /");
-} */
