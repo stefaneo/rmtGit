@@ -25,6 +25,7 @@ var result = decide();
 function checkResult() {
   if (result == undefined) {
     alert("Ponovo unesite parametre.");
+    location.reload();
   } else {
     alert("Rezultat je: " + result);
   }
