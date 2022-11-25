@@ -5,7 +5,7 @@ var cNotPars = prompt("Unesite drugi broj:");
 var a = parseInt(aNotPars);
 var c = parseInt(cNotPars);
 
-function decide() {
+function decide(a, b, c) {
   if (b == "+") {
     var z = a + c;
   } else if (b == "-") {
@@ -20,7 +20,7 @@ function decide() {
   return z;
 }
 
-var result = decide();
+var result = decide(a, b, c);
 
 function checkResult() {
   if (result == undefined) {
